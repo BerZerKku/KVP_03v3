@@ -1,0 +1,98 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\kvp_03v3.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "0")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}{PACKAGE}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "pcb")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\KVP_03V3.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "64")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File ".\pcb\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pcb\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pcb\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "d:\project\circuit\kvp\03v3\kvp_03v3.dsn")
+      (Path "Design Resources" "d:\project\circuit\kvp\03v3\kvp_03v3.dsn"
+         "TOP LEVEL")
+      (Path "Design Resources" "d:\project\circuit\kvp\03v3\kvp_03v3.dsn"
+         "A - RS422")
+      (Path "Design Resources" "d:\project\circuit\kvp\03v3\kvp_03v3.dsn"
+         "C - RS422")
+      (Path "Outputs")
+      (Select "Design Resources" "d:\project\circuit\kvp\03v3\kvp_03v3.dsn"
+         "TOP LEVEL" "MAIN"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 216 1328 224 678")
+        (Scroll "-119 140")
+        (Zoom "100")
+        (Occurrence "/A3"))
+      (Path "D:\PROJECT\CIRCUIT\KVP\03V3\KVP_03V3.DSN")
+      (Schematic "C - RS422")
+      (Page "C - RS422"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -29 0 1116 0 458")
+        (Scroll "-233 320")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\CIRCUIT\KVP\03V3\KVP_03V3.DSN")
+      (Schematic "TOP LEVEL")
+      (Page "MAIN")))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "Shcheblykin"))

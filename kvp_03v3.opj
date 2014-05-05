@@ -58,25 +58,22 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "D:\Project\Circuit\KVP\03v3\kvp_03v3.dsn")
-      (Path "Design Resources" "D:\Project\Circuit\KVP\03v3\kvp_03v3.dsn"
-         "TOP LEVEL")
-      (Path "Design Resources" "D:\Project\Circuit\KVP\03v3\kvp_03v3.dsn"
-         "C - RS422")
+      (Path "Design Resources" ".\kvp_03v3.dsn")
+      (Path "Design Resources" ".\kvp_03v3.dsn" "TOP LEVEL")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources" ".\kvp_03v3.dsn" "TOP LEVEL" "MAIN"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 876"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -29 0 728 0 450")
-        (Scroll "-121 0")
-        (Zoom "54")
+        (Scroll "0 26")
+        (Zoom "108")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V3\KVP_03V3.DSN")
       (Schematic "TOP LEVEL")
@@ -84,12 +81,22 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 81 813 84 538")
-        (Scroll "-200 289")
+        (Placement "44 0 1 -1 -1 -4 -29 81 813 84 538")
+        (Scroll "0 0")
         (Zoom "108")
         (Occurrence "/B1"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V3\KVP_03V3.DSN")
       (Schematic "C - RS422")
-      (Page "C - RS422")))
+      (Page "C - RS422"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -29 189 1561 196 654")
+        (Scroll "-41 125")
+        (Zoom "100")
+        (Occurrence "/D1"))
+      (Path "D:\PROJECT\CIRCUIT\KVP\03V3\KVP_03V3.DSN")
+      (Schematic "B - IO")
+      (Page "B - IO")))
   (ISPCBBASICLICENSE "false")
   (MPSSessionName "Shcheblykin"))

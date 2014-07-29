@@ -58,21 +58,28 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\kvp_03v3.dsn")
-      (Path "Design Resources" ".\kvp_03v3.dsn" "TOP LEVEL")
+      (Path "Design Resources" "D:\Project\Circuit\KVP\03v3\kvp_03v3.dsn")
+      (Path "Design Resources" "D:\Project\Circuit\KVP\03v3\kvp_03v3.dsn"
+         "TOP LEVEL")
+      (Path "Design Resources" "D:\Project\Circuit\KVP\03v3\kvp_03v3.dsn"
+         "A - RS422")
+      (Path "Design Resources" "D:\Project\Circuit\KVP\03v3\kvp_03v3.dsn"
+         "B - IO")
+      (Path "Design Resources" "D:\Project\Circuit\KVP\03v3\kvp_03v3.dsn"
+         "C - RS422")
       (Path "Outputs")
-      (Select "Design Resources" ".\kvp_03v3.dsn" "TOP LEVEL" "MAIN"))
+      (Select "Design Resources" "D:\Project\Circuit\KVP\03v3\kvp_03v3.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 876"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 0 728 0 450")
-        (Scroll "0 26")
+        (Placement "44 2 3 -1 -1 -4 -24 0 728 0 450")
+        (Scroll "-344 198")
         (Zoom "108")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V3\KVP_03V3.DSN")
@@ -81,7 +88,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 81 813 84 538")
+        (Placement "44 0 1 -1 -1 -4 -24 81 813 84 538")
         (Scroll "0 0")
         (Zoom "108")
         (Occurrence "/B1"))
@@ -91,12 +98,22 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 189 1561 196 654")
-        (Scroll "-41 125")
+        (Placement "44 0 1 -1 -1 -4 -24 189 1561 196 654")
+        (Scroll "-251 0")
         (Zoom "100")
         (Occurrence "/D1"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V3\KVP_03V3.DSN")
       (Schematic "B - IO")
-      (Page "B - IO")))
+      (Page "B - IO"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -24 66 1454 69 653")
+        (Scroll "-259 0")
+        (Zoom "100")
+        (Occurrence "/A1"))
+      (Path "D:\PROJECT\CIRCUIT\KVP\03V3\KVP_03V3.DSN")
+      (Schematic "A - RS422")
+      (Page "A - RS422")))
   (ISPCBBASICLICENSE "false")
   (MPSSessionName "Shcheblykin"))
